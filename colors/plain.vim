@@ -22,9 +22,9 @@ let g:colors_name="plain"
 " PLAIN HIGHLIGHTING:
 "=======================================================================================================================
 highlight! Normal                   ctermfg=15   ctermbg=0    cterm=NONE
-highlight! ModeMsg					ctermfg=11   ctermbg=NONE cterm=NONE
+highlight! ModeMsg					        ctermfg=11   ctermbg=NONE cterm=NONE
 highlight! TabLineSel               ctermfg=0    ctermbg=4    cterm=NONE
-highlight! PmenuSel                 ctermfg=4    ctermbg=NONE cterm=reverse
+highlight! PmenuSel                 ctermfg=0    ctermbg=11	  cterm=NONE
 highlight! StatusLine               ctermfg=15   ctermbg=6    cterm=NONE
 highlight! CursorLineNr             ctermfg=15   ctermbg=0    cterm=NONE
 highlight! MatchParen               ctermfg=15   ctermbg=1    cterm=NONE
