@@ -1,13 +1,3 @@
-"  ________  ___  ________  ________  ________   ___  ________
-" |\   ____\|\  \|\   ___ \|\   __  \|\   ___  \|\  \|\   __  \
-" \ \  \___|\ \  \ \  \_|\ \ \  \|\  \ \  \\ \  \ \  \ \  \|\  \
-"  \ \_____  \ \  \ \  \ \\ \ \  \\\  \ \  \\ \  \ \  \ \   __  \
-"   \|____|\  \ \  \ \  \_\\ \ \  \\\  \ \  \\ \  \ \  \ \  \ \  \
-"     ____\_\  \ \__\ \_______\ \_______\ \__\\ \__\ \__\ \__\ \__\
-"    |\_________\|__|\|_______|\|_______|\|__| \|__|\|__|\|__|\|__|
-"    \|_________|
-
-
 " A Terminal && Vim colorscheme
 " Author:       hellohuangjin
 " Script URL:   https://github.com/hellohuangjin/plain.git
@@ -29,37 +19,38 @@ endif
 let g:colors_name="plain"
 
 "=======================================================================================================================
-" SIDONIA HIGHLIGHTING:
+" PLAIN HIGHLIGHTING:
 "=======================================================================================================================
-highlight! Normal                   guifg=#e4edfa  guibg=#333942  gui=NONE      ctermfg=15   ctermbg=0    cterm=NONE
-highlight! TabLineSel               guifg=#333942  guibg=#a2afc1  gui=NONE      ctermfg=0    ctermbg=4    cterm=NONE
-highlight! PmenuSel                 guifg=#a2afc1  guibg=NONE     gui=reverse   ctermfg=4    ctermbg=NONE cterm=reverse
-highlight! StatusLine               guifg=#e4edfa  guibg=#2c3139  gui=NONE      ctermfg=15   ctermbg=6    cterm=NONE
-highlight! CursorLineNr             guifg=#e4edfa  guibg=#2c3139  gui=NONE      ctermfg=15   ctermbg=6   cterm=NONE
-highlight! MatchParen               guifg=#e4edfa  guibg=#CC4339  gui=NONE      ctermfg=15   ctermbg=1    cterm=NONE
-highlight! PmenuSbar                guifg=#2c3139  guibg=#2c3139  gui=NONE      ctermfg=6    ctermbg=6    cterm=NONE
-highlight! String                   guifg=#26A6A6  guibg=NONE     gui=NONE      ctermfg=2    ctermbg=NONE cterm=NONE
-highlight! PreProc                  guifg=#CC4339  guibg=NONE     gui=NONE      ctermfg=1    ctermbg=NONE cterm=NONE
-highlight! Comment                  guifg=#5c6573  guibg=NONE     gui=NONE      ctermfg=8    ctermbg=NONE cterm=NONE
-highlight! Function                 guifg=#a2afc1  guibg=NONE     gui=NONE      ctermfg=4    ctermbg=NONE cterm=NONE
-highlight! SpecialKey               guifg=#D8FD60  guibg=NONE     gui=NONE      ctermfg=3    ctermbg=NONE cterm=NONE
-highlight! CursorLine               guifg=NONE     guibg=#2f343c  gui=NONE      ctermfg=NONE ctermbg=16   cterm=NONE
-highlight! CursorColumn             guifg=NONE     guibg=#333942  gui=NONE      ctermfg=NONE ctermbg=0    cterm=NONE
-highlight! LineNr                   guifg=#5c6573  guibg=#2c3139  gui=NONE      ctermfg=8    ctermbg=6    cterm=NONE
-highlight! Underlined               guifg=#9966B8  guibg=NONE     gui=NONE      ctermfg=5    ctermbg=NONE cterm=NONE
-highlight! SpecialComment           guifg=#5c6573  guibg=NONE     gui=reverse   ctermfg=8    ctermbg=NONE cterm=reverse
-highlight! Todo                     guifg=#D8FD60  guibg=NONE     gui=reverse   ctermfg=3    ctermbg=NONE cterm=reverse
-highlight! Search                   guifg=#26A6A6  guibg=NONE     gui=reverse   ctermfg=2    ctermbg=NONE cterm=reverse
-highlight! Error                    guifg=#CC4339  guibg=NONE     gui=reverse   ctermfg=1    ctermbg=NONE cterm=reverse
-highlight! DiffAdd                  guifg=#e4edfa  guibg=NONE     gui=reverse   ctermfg=15   ctermbg=NONE cterm=reverse
-highlight! DiffChange               guifg=#9966B8  guibg=NONE     gui=reverse   ctermfg=5    ctermbg=NONE cterm=reverse
-highlight! SpellBad                 guifg=#CC4339  guibg=NONE     gui=undercurl ctermfg=1    ctermbg=NONE cterm=undercurl
-highlight! SpellLocal               guifg=#9966B8  guibg=NONE     gui=undercurl ctermfg=8    ctermbg=NONE cterm=undercurl
-highlight! SpellCap                 guifg=#D8FD60  guibg=NONE     gui=undercurl ctermfg=3    ctermbg=NONE cterm=undercurl
+highlight! Normal                   ctermfg=15   ctermbg=0    cterm=NONE
+highlight! ModeMsg					ctermfg=11   ctermbg=NONE cterm=NONE
+highlight! TabLineSel               ctermfg=0    ctermbg=4    cterm=NONE
+highlight! PmenuSel                 ctermfg=4    ctermbg=NONE cterm=reverse
+highlight! StatusLine               ctermfg=15   ctermbg=6    cterm=NONE
+highlight! CursorLineNr             ctermfg=15   ctermbg=0    cterm=NONE
+highlight! MatchParen               ctermfg=15   ctermbg=1    cterm=NONE
+highlight! PmenuSbar                ctermfg=14   ctermbg=14   cterm=NONE
+highlight! String                   ctermfg=2    ctermbg=NONE cterm=NONE
+highlight! PreProc                  ctermfg=1    ctermbg=NONE cterm=NONE
+highlight! Comment                  ctermfg=8    ctermbg=NONE cterm=NONE
+highlight! Function                 ctermfg=4    ctermbg=NONE cterm=NONE
+highlight! Type                     ctermfg=11   ctermbg=NONE cterm=NONE
+highlight! SpecialKey               ctermfg=3    ctermbg=NONE cterm=NONE
+highlight! CursorLine               ctermfg=NONE ctermbg=16   cterm=NONE
+highlight! CursorColumn             ctermfg=NONE ctermbg=0    cterm=NONE
+highlight! LineNr                   ctermfg=8    ctermbg=0    cterm=NONE
+highlight! Underlined               ctermfg=5    ctermbg=NONE cterm=NONE
+highlight! SpecialComment           ctermfg=8    ctermbg=NONE cterm=reverse
+highlight! Todo                     ctermfg=1    ctermbg=NONE cterm=NONE
+highlight! Search                   ctermfg=2    ctermbg=NONE cterm=reverse
+highlight! Error                    ctermfg=9    ctermbg=NONE cterm=NONE
+highlight! DiffAdd                  ctermfg=15   ctermbg=NONE cterm=reverse
+highlight! DiffChange               ctermfg=5    ctermbg=NONE cterm=reverse
+highlight! SpellBad                 ctermfg=1    ctermbg=NONE cterm=undercurl
+highlight! SpellLocal               ctermfg=8    ctermbg=NONE cterm=undercurl
+highlight! SpellCap                 ctermfg=3    ctermbg=NONE cterm=undercurl
 
 highlight! link Visual              PmenuSel
 highlight! link WildMenu            PmenuSel
-highlight! link ModeMsg             PmenuSel
 highlight! link PmenuThumb          PmenuSbar
 highlight! link Pmenu               LineNr
 highlight! link StatusLineNC        LineNr
@@ -78,7 +69,6 @@ highlight! link Operator            Function
 highlight! link Special             Function
 highlight! link Identifier          Function
 highlight! link Statement           Function
-highlight! link Type                Function
 highlight! link Constant            Function
 highlight! link htmlEndTag          Function
 highlight! link Number              PreProc
