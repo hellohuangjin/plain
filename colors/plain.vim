@@ -21,20 +21,18 @@ let g:colors_name="plain"
 "=======================================================================================================================
 " PLAIN HIGHLIGHTING:
 "=======================================================================================================================
+
+
+" comment
 highlight! Normal                   ctermfg=15   ctermbg=0    cterm=NONE
-highlight! ModeMsg					        ctermfg=11   ctermbg=NONE cterm=NONE
+highlight! ModeMsg					ctermfg=11   ctermbg=NONE cterm=NONE
 highlight! TabLineSel               ctermfg=0    ctermbg=4    cterm=NONE
 highlight! PmenuSel                 ctermfg=0    ctermbg=11	  cterm=NONE
 highlight! StatusLine               ctermfg=15   ctermbg=6    cterm=NONE
 highlight! CursorLineNr             ctermfg=15   ctermbg=0    cterm=NONE
 highlight! MatchParen               ctermfg=15   ctermbg=1    cterm=NONE
 highlight! PmenuSbar                ctermfg=14   ctermbg=14   cterm=NONE
-highlight! String                   ctermfg=2    ctermbg=NONE cterm=NONE
-highlight! PreProc                  ctermfg=1    ctermbg=NONE cterm=NONE
-highlight! Comment                  ctermfg=8    ctermbg=NONE cterm=NONE
-highlight! Function                 ctermfg=4    ctermbg=NONE cterm=NONE
-highlight! Type                     ctermfg=11   ctermbg=NONE cterm=NONE
-highlight! SpecialKey               ctermfg=3    ctermbg=NONE cterm=NONE
+highlight! Directory                ctermfg=6    ctermbg=NONE cterm=NONE
 highlight! CursorLine               ctermfg=NONE ctermbg=16   cterm=NONE
 highlight! CursorColumn             ctermfg=NONE ctermbg=0    cterm=NONE
 highlight! LineNr                   ctermfg=8    ctermbg=0    cterm=NONE
@@ -49,6 +47,25 @@ highlight! SpellBad                 ctermfg=1    ctermbg=NONE cterm=undercurl
 highlight! SpellLocal               ctermfg=8    ctermbg=NONE cterm=undercurl
 highlight! SpellCap                 ctermfg=3    ctermbg=NONE cterm=undercurl
 
+" language
+
+highlight! String                   ctermfg=2    ctermbg=NONE cterm=NONE
+highlight! PreProc                  ctermfg=1    ctermbg=NONE cterm=NONE
+highlight! Comment                  ctermfg=8    ctermbg=NONE cterm=NONE
+highlight! Function                 ctermfg=4    ctermbg=NONE cterm=NONE
+highlight! Type                     ctermfg=11   ctermbg=NONE cterm=NONE
+highlight! SpecialKey               ctermfg=3    ctermbg=NONE cterm=NONE
+highlight! Identifier				ctermfg=13   ctermbg=NONE cterm=NONE
+highlight! Operator					ctermfg=12   ctermbg=NONE cterm=NONE
+highlight! link Special             Function
+highlight! Statement				ctermfg=6    ctermbg=NONE cterm=NONE
+highlight! link Constant            Function
+highlight! link htmlEndTag          Function
+
+" filetype
+highlight! pythonBuiltin            ctermfg=5    ctermbg=NONE cterm=NONE
+
+" other
 highlight! link Visual              PmenuSel
 highlight! link WildMenu            PmenuSel
 highlight! link PmenuThumb          PmenuSbar
@@ -62,15 +79,8 @@ highlight! link DiffDelete          Error
 highlight! link ColorColumn         CursorLine
 highlight! link SignColumn          String
 highlight! link MoreMsg             String
-highlight! link Directory           String
 highlight! link markdownLinkText    String
 highlight! link WarningMsg          String
-highlight! link Operator            Function
-highlight! link Special             Function
-highlight! link Identifier          Function
-highlight! link Statement           Function
-highlight! link Constant            Function
-highlight! link htmlEndTag          Function
 highlight! link Number              PreProc
 highlight! link Title               PreProc
 highlight! link FoldColumn          PreProc
