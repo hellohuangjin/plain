@@ -55,7 +55,7 @@ highlight! Comment                  ctermfg=8    ctermbg=NONE cterm=NONE
 highlight! Function                 ctermfg=4    ctermbg=NONE cterm=NONE
 highlight! Type                     ctermfg=11   ctermbg=NONE cterm=NONE
 highlight! SpecialKey               ctermfg=3    ctermbg=NONE cterm=NONE
-highlight! Identifier				ctermfg=13   ctermbg=NONE cterm=NONE
+highlight! Identifier				ctermfg=5    ctermbg=NONE cterm=NONE
 highlight! Operator					ctermfg=12   ctermbg=NONE cterm=NONE
 highlight! link Special             Function
 highlight! Statement				ctermfg=6    ctermbg=NONE cterm=NONE
